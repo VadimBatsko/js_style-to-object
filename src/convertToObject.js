@@ -20,5 +20,4 @@ function convertToObject(sourceString) {
   return stylesObject;
 }
 
-console.log(convertToObject(complexStylesString));
-// module.exports = convertToObject;
+module.exports = convertToObject;
